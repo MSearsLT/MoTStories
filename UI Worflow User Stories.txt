@@ -1,0 +1,67 @@
+Parenthetical numbers at the end of each User Story are page-number references in document titled: "Fagor Workflow.pdf" provided by Jeff Feehan of Medicine on Time.
+
+- Work Calendar:
+  -- As a user I need a selectable checkbox next to patients having MOT Card orders, so that I can select which patients to print MOT labels for (2)
+      Acceptance Criteria:
+        - Checkbox displays next to each patient with "MOT Card" orders within all applicable menus
+        - Printing is disabled if any of the selected patients have issues with their order
+
+  -- As a user I want to be able to select multiple MOT Card orders so that I can batch print their labels (2)
+      Acceptance Criteria:
+        - Multiple patients can be selected in order to batch print labels
+        - Printing is disabled if any of the selected patients has issues with their order
+
+  -- As a user I need to be able to send Fagor Card orders to a Fagor machine so that a <insert pharmacy role> can fill the Fagor pill Packages (2)
+      Acceptance Criteria:
+        - Patients with Fagor Card orders have actionable button available within its respective row in all applicable patient lists
+
+  -- As a user I want a behind-the-scenes visual representation of the progress of a Fagor order so that I can continue working to fulfill other types of orders within MOT (2)
+      Acceptance Criteria: 
+        - A new, async dialog box will open for displaying Fagor progress
+        - No other orders can be sent to Fagor while a Fagor order is in progress        
+
+  -- As a user I need to see patients with issues displayed with red text so that I know which patients require more action (3)
+      Acceptance Criteria:
+        - User Story is sufficient
+
+  -- As a user I want to hover my mouse over troubled patient order so that a momentary dialog box can display a list of issues with that respective patient's order(3)
+      Acceptance Criteria:
+        - User Story is sufficient
+
+  -- As a user I should not be able to print an MOT cycle if any of the selected patient's orders have issues (4)
+      Acceptance Criteria:
+        - Hovering mouse over "Print This Cycle MOT" button will display momentary dialog box with a list of troubled patient names
+  
+- Patient Settings
+  -- As a user I want there to be a dropdown menu available so that I can select a specific Card Type for a patient (7)
+      Acceptance Criteria:
+        - Menu will be in the top of the right column [Card Settings] (7,8)
+        - Dropdown will contain: "MOT" and "Fagor"(7,8)
+
+  -- As a user, when I select "Fagor" as the Card Type, the "Robot Options" dropdown will be disabled (8)
+      Acceptance Criteria:
+        - User Story is sufficient
+
+  -- As a user, when I select "Fagor" as the Card Type, only "28 Days" will be selectable within the Card Days Dropdown(8)
+      Acceptance Criteria:
+        - The dropdown will auto populate "28 Days" when "Fagor" Card Type is selected
+
+  -- As a user, when I select "Fagor" as the Card Type, the Card Style dropdown options will be: "Fagor Weekly 4 Pass", "Fagor 28 Day", "Single"
+      Acceptance Criteria:
+        - Values stated in User story will source dropdown
+
+  -- As a user, when I select "Fagor" as the Card Type, the capacity dropdown will be disabled (8)
+      Acceptance Criteria:
+        - User Story is sufficient
+
+  -- As a user, when I send a Fagor order that is larger than one Fagor package, multiple packages will be generated and sent to the Fagor robot (8)
+      Acceptance Criteria:
+        - MOT appropriately generates the proper amount of Fagor Packages to be sent per order. 
+
+  -- As a user, when I select "MOT" as the Card Type, the Card Style dropdown options will contain the current available options
+      Acceptance Criteria:
+        - User Story is sufficient
+
+  -- As a user, when I select "Fagor Weekly 4 Pass" Card Style, The "Color Table" Dropdown will be disabled (8,9)
+      Acceptance Criteria:
+        - User Story is sufficient

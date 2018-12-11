@@ -1,0 +1,9 @@
+Parenthetical numbers at the end of each User Story are page-number references in document titled: "Fagor Workflow.pdf" provided by Jeff Feehan of Medicine on Time.
+
+- Labels:
+  -- As a user, when I send an order to Fagor that is larger than one pill package, labels will print such that they display "1 of 3", "2 of 3", etc (8)
+      Acceptance Criteria:
+        - Multiple labels are printed for a Fagor order when order capacity is larger than one Fagor package
+        
+
+ 
